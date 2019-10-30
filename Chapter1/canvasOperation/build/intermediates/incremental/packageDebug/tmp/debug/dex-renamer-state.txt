@@ -1,0 +1,4 @@
+#Wed Oct 30 21:27:27 CST 2019
+base.0=D\:\\AbWork\\android\\ViewDiy\\Chapter1\\canvasOperation\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

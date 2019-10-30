@@ -1,0 +1,6 @@
+include ':app'
+rootProject.name='ViewDiy'
+include ':Chapter1:canvasOperation'
+include ':Chapter1:paintBasis'
+include ':Chapter1:regionBasis'
+include ':Chapter1:textBasis'
