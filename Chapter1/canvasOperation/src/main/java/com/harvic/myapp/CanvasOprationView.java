@@ -7,12 +7,16 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.View;
+import android.widget.Toast;
 
 /**
  * Created by qijian on 16/10/31.
  */
 
 public class CanvasOprationView extends View {
+
+    private int state = 0;
+
     public CanvasOprationView(Context context) {
         super(context);
     }
@@ -25,42 +29,46 @@ public class CanvasOprationView extends View {
         super(context, attrs, defStyle);
     }
 
+    public void changeState() {
+        state = ++state % 5;
+        invalidate();
+    }
+
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        /**
-         * 平移操作
-         */
-//        translateDemo(canvas);
 
-        /**
-         * 旋转操作
-         */
-//        rotateDemo(canvas);
+        switch (state) {
+            case 1:
+                //平移操作
+                translateDemo(canvas);
+                Toast.makeText(getContext(),"平移操作",Toast.LENGTH_SHORT).show();
+                break;
+            case 2:
+                //旋转操作
+                rotateDemo(canvas);
+                Toast.makeText(getContext(),"旋转操作",Toast.LENGTH_SHORT).show();
+                break;
+            case 3:
+                //缩放操作
+                scaleDemo(canvas);
+                Toast.makeText(getContext(),"缩放操作",Toast.LENGTH_SHORT).show();
+                break;
+            case 4:
+                //扭曲操作
+                skewDemo(canvas);
+                Toast.makeText(getContext(),"扭曲操作",Toast.LENGTH_SHORT).show();
+                break;
+            default:
+                //出栈操作
+                drawSimple(canvas);
+                Toast.makeText(getContext(),"出栈操作",Toast.LENGTH_SHORT).show();
+                break;
+        }
 
-        /**
-         * 缩放操作
-         */
-//        scaleDemo(canvas);
+    }
 
-        /**
-         * 扭曲操作
-         */
-//        skewDemo(canvas);
-
-
-
-
-
-//        canvas.drawColor(Color.RED);
-//        canvas.clipRect(new Rect(100, 100, 200, 200));
-//        canvas.drawColor(Color.GREEN);
-
-
-
-
-
-
+    private void drawSimple(Canvas canvas) {
 
         canvas.drawColor(Color.RED);
         //保存的画布大小为全屏幕大小
@@ -94,10 +102,10 @@ public class CanvasOprationView extends View {
 
         //构造两个画笔，一个红色，一个绿色
         Paint paint_green = generatePaint(Color.GREEN, Paint.Style.STROKE, 3);
-        Paint paint_red   = generatePaint(Color.RED, Paint.Style.STROKE, 3);
+        Paint paint_red = generatePaint(Color.RED, Paint.Style.STROKE, 3);
 
         //构造一个矩形
-        Rect rect1 = new Rect(0,0,400,220);
+        Rect rect1 = new Rect(0, 0, 400, 220);
 
         //在平移画布前用绿色画下边框
         canvas.drawRect(rect1, paint_green);
@@ -108,41 +116,41 @@ public class CanvasOprationView extends View {
     }
 
 
-    private void rotateDemo(Canvas canvas){
+    private void rotateDemo(Canvas canvas) {
         Paint paint_green = generatePaint(Color.GREEN, Paint.Style.FILL, 5);
-        Paint paint_red   = generatePaint(Color.RED, Paint.Style.STROKE, 5);
+        Paint paint_red = generatePaint(Color.RED, Paint.Style.STROKE, 5);
 
-        Rect rect1 = new Rect(300,10,500,100);
+        Rect rect1 = new Rect(300, 10, 500, 100);
         canvas.drawRect(rect1, paint_red); //画出原轮廓
 
         canvas.rotate(30);//顺时针旋转画布
         canvas.drawRect(rect1, paint_green);//画出旋转后的矩形
     }
 
-    private void scaleDemo(Canvas canvas){
+    private void scaleDemo(Canvas canvas) {
         Paint paint_green = generatePaint(Color.GREEN, Paint.Style.STROKE, 5);
-        Paint paint_red   = generatePaint(Color.RED, Paint.Style.STROKE, 5);
-        Paint paint_yellow   = generatePaint(Color.YELLOW, Paint.Style.STROKE, 5);
+        Paint paint_red = generatePaint(Color.RED, Paint.Style.STROKE, 5);
+        Paint paint_yellow = generatePaint(Color.YELLOW, Paint.Style.STROKE, 5);
 
-        Rect rect1 = new Rect(10,10,200,100);
+        Rect rect1 = new Rect(10, 10, 200, 100);
         canvas.drawRect(rect1, paint_green);
 
         canvas.scale(0.5f, 1);
         canvas.drawRect(rect1, paint_red);
     }
 
-    private void skewDemo(Canvas canvas){
+    private void skewDemo(Canvas canvas) {
         Paint paint_green = generatePaint(Color.GREEN, Paint.Style.STROKE, 5);
-        Paint paint_red   = generatePaint(Color.RED, Paint.Style.STROKE, 5);
+        Paint paint_red = generatePaint(Color.RED, Paint.Style.STROKE, 5);
 
-        Rect rect1 = new Rect(10,10,200,100);
+        Rect rect1 = new Rect(10, 10, 200, 100);
 
         canvas.drawRect(rect1, paint_green);
-        canvas.skew(1.732f,0);//X轴倾斜60度，Y轴不变
+        canvas.skew(1.732f, 0);//X轴倾斜60度，Y轴不变
         canvas.drawRect(rect1, paint_red);
     }
 
-    private Paint generatePaint(int color,Paint.Style style,int width){
+    private Paint generatePaint(int color, Paint.Style style, int width) {
         Paint paint = new Paint();
         paint.setColor(color);
         paint.setStyle(style);
