@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <Button
+                android:id="@+id/btn_avoidxfermode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AvoidXfermode"/>
+
+        <Button
+                android:id="@+id/btn_porterduffxfermode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PorterDuffXfermodeView"/>
+
+        <Button
+                android:id="@+id/btn_lightbook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="书架效果"/>
+
+        <Button
+                android:id="@+id/btn_twitterview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TwitterVIew"/>
+
+        <Button
+                android:id="@+id/btn_round_img_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="圆角图像"/>
+
+        <Button
+                android:id="@+id/btn_inverted_img_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="倒影效果"/>
+
+
+        <Button
+                android:id="@+id/btn_eraser_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="刮刮卡效果"/>
+
+        <Button
+                android:id="@+id/btn_text_wave_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="文字波浪效果"/>
+
+        <Button
+                android:id="@+id/btn_irregular_wave_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="不规则波浪效果"/>
+
+    </LinearLayout>
+</ScrollView>

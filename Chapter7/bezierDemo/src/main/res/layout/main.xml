@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <Button
+            android:id="@+id/bezier_wave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="贝赛尔曲线--QuardTo"/>
+
+    <Button
+        android:id="@+id/normal_gesture_track"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通过lineTo实现手势追踪"/>
+
+    <Button
+            android:id="@+id/bezier_gesture_track"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="通过贝赛尔实现手势追踪"/>
+
+    <Button
+            android:id="@+id/anim_wave_demo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="波浪动画"/>
+
+</LinearLayout>
+

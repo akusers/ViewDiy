@@ -31,6 +31,17 @@
             <option value="$PROJECT_DIR$/Chapter5" />
             <option value="$PROJECT_DIR$/Chapter5/SVGDemo" />
             <option value="$PROJECT_DIR$/Chapter5/pathMeasureDemo" />
+            <option value="$PROJECT_DIR$/Chapter6" />
+            <option value="$PROJECT_DIR$/Chapter6/paintDemo" />
+            <option value="$PROJECT_DIR$/Chapter7" />
+            <option value="$PROJECT_DIR$/Chapter7/bezierDemo" />
+            <option value="$PROJECT_DIR$/Chapter7/bitmapShader" />
+            <option value="$PROJECT_DIR$/Chapter7/blurMaskFilterDemo" />
+            <option value="$PROJECT_DIR$/Chapter7/linearGradient" />
+            <option value="$PROJECT_DIR$/Chapter7/radialGradient" />
+            <option value="$PROJECT_DIR$/Chapter7/shadowLayerDemo" />
+            <option value="$PROJECT_DIR$/Chapter8" />
+            <option value="$PROJECT_DIR$/Chapter8/xfermodeDemo" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
