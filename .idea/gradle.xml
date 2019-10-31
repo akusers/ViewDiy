@@ -13,6 +13,24 @@
             <option value="$PROJECT_DIR$/Chapter1/paintBasis" />
             <option value="$PROJECT_DIR$/Chapter1/regionBasis" />
             <option value="$PROJECT_DIR$/Chapter1/textBasis" />
+            <option value="$PROJECT_DIR$/Chapter2" />
+            <option value="$PROJECT_DIR$/Chapter2/animDemo" />
+            <option value="$PROJECT_DIR$/Chapter2/frameAnim" />
+            <option value="$PROJECT_DIR$/Chapter2/interpolater" />
+            <option value="$PROJECT_DIR$/Chapter2/viewAnimation" />
+            <option value="$PROJECT_DIR$/Chapter3" />
+            <option value="$PROJECT_DIR$/Chapter3/animatorSet" />
+            <option value="$PROJECT_DIR$/Chapter3/interploatorEvaluator" />
+            <option value="$PROJECT_DIR$/Chapter3/objectAnimator" />
+            <option value="$PROJECT_DIR$/Chapter3/valueAnimator" />
+            <option value="$PROJECT_DIR$/Chapter3/xmlAnimator" />
+            <option value="$PROJECT_DIR$/Chapter4" />
+            <option value="$PROJECT_DIR$/Chapter4/keyFrameAndPropertyViewHolder" />
+            <option value="$PROJECT_DIR$/Chapter4/nineOldAndroidsDemo" />
+            <option value="$PROJECT_DIR$/Chapter4/viewGroupAnim" />
+            <option value="$PROJECT_DIR$/Chapter5" />
+            <option value="$PROJECT_DIR$/Chapter5/SVGDemo" />
+            <option value="$PROJECT_DIR$/Chapter5/pathMeasureDemo" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

@@ -7,35 +7,24 @@ The following files were *not* copied into the new Gradle project; you
 should evaluate whether these are still needed in your project and if
 so manually move them:
 
-* .DS_Store
-* TextBasis.iml
-* TextBasis.ipr
-* TextBasis.iws
+* .idea\
+* .idea\.name
+* .idea\codeStyles\
+* .idea\codeStyles\Project.xml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\uiDesigner.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* PathMeasureDemo.iml
 * ant.properties
 * build.xml
-* out\
-* out\production\
-* out\production\TextBasis\
-* out\production\TextBasis\TextBasis.apk
-* out\production\TextBasis\TextBasis.unaligned.apk
-* out\production\TextBasis\com\
-* out\production\TextBasis\com\harvic\
-* out\production\TextBasis\com\harvic\TextBasis\
-* out\production\TextBasis\com\harvic\TextBasis\BuildConfig.class
-* out\production\TextBasis\com\harvic\TextBasis\CanvasActivity.class
-* out\production\TextBasis\com\harvic\TextBasis\CanvasView.class
-* out\production\TextBasis\com\harvic\TextBasis\MyActivity$1.class
-* out\production\TextBasis\com\harvic\TextBasis\MyActivity$2.class
-* out\production\TextBasis\com\harvic\TextBasis\MyActivity.class
-* out\production\TextBasis\com\harvic\TextBasis\PaintSettingActivity.class
-* out\production\TextBasis\com\harvic\TextBasis\PaintView.class
-* out\production\TextBasis\com\harvic\TextBasis\R$attr.class
-* out\production\TextBasis\com\harvic\TextBasis\R$drawable.class
-* out\production\TextBasis\com\harvic\TextBasis\R$id.class
-* out\production\TextBasis\com\harvic\TextBasis\R$layout.class
-* out\production\TextBasis\com\harvic\TextBasis\R$string.class
-* out\production\TextBasis\com\harvic\TextBasis\R$style.class
-* out\production\TextBasis\com\harvic\TextBasis\R.class
 * proguard-project.txt
 
 Moved Files:
@@ -43,10 +32,10 @@ Moved Files:
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => Chapter1\textBasis\src\main\AndroidManifest.xml
-* assets\ => Chapter1\textBasis\src\main\assets\
-* res\ => Chapter1\textBasis\src\main\res\
-* src\ => Chapter1\textBasis\src\main\java\
+* AndroidManifest.xml => Chapter5\pathMeasureDemo\src\main\AndroidManifest.xml
+* assets\ => Chapter5\pathMeasureDemo\src\main\assets
+* res\ => Chapter5\pathMeasureDemo\src\main\res\
+* src\ => Chapter5\pathMeasureDemo\src\main\java\
 
 Next Steps:
 -----------

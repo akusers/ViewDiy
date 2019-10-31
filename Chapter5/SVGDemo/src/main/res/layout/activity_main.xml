@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <Button
+            android:id="@+id/svg_show"
+            android:text="显示SVG图像"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/svg_anim"
+            android:text="SVG动画"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/search_anim"
+            android:text="搜索动画"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
