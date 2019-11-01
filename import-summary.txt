@@ -12,63 +12,30 @@ so manually move them:
 * .idea\compiler.xml
 * .idea\copyright\
 * .idea\copyright\profiles_settings.xml
-* .idea\encodings.xml
 * .idea\misc.xml
 * .idea\modules.xml
-* .idea\scopes\
-* .idea\scopes\scope_settings.xml
 * .idea\uiDesigner.xml
 * .idea\vcs.xml
 * .idea\workspace.xml
-* XfermodeDemo.iml
+* SimpleLayout.iml
 * ant.properties
 * build.xml
 * out\
 * out\production\
-* out\production\XfermodeDemo\
-* out\production\XfermodeDemo\XfermodeDemo.apk
-* out\production\XfermodeDemo\com\
-* out\production\XfermodeDemo\com\harvic\
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\BuildConfig.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\MyActivity$1.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\MyActivity$2.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\MyActivity$3.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\MyActivity$4.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\MyActivity$5.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\MyActivity$6.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\MyActivity$7.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\MyActivity$8.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\MyActivity$9.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\MyActivity.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\R$attr.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\R$drawable.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\R$id.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\R$layout.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\R$string.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\R.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\activity\
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\activity\AvoidXfermodeActivity.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\activity\EraserImageActivity.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\activity\InvertImageActivity.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\activity\IrregularWaveActivity.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\activity\LightBookActivity.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\activity\PorterDuffXfermodeActivity.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\activity\RoundImageActivity.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\activity\TextWaveActivity.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\activity\TwitterActivity.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\view\
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\view\AvoidXfermodeView.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\view\EraserView_SRCOUT.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\view\InvertedImageView_SRCIN.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\view\IrregularWaveView$1.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\view\IrregularWaveView.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\view\LightBookView.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\view\PorterDuffXfermodeView.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\view\RoundImageView_SRCIN.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\view\TextWave_DSTIN$1.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\view\TextWave_DSTIN.class
-* out\production\XfermodeDemo\com\harvic\XfermodeDemo\view\TwitterView.class
+* out\production\SimpleLayout\
+* out\production\SimpleLayout\SimpleLayout.apk
+* out\production\SimpleLayout\SimpleLayout.unaligned.apk
+* out\production\SimpleLayout\com\
+* out\production\SimpleLayout\com\example\
+* out\production\SimpleLayout\com\example\SimpleLayout\
+* out\production\SimpleLayout\com\example\SimpleLayout\BuildConfig.class
+* out\production\SimpleLayout\com\example\SimpleLayout\MainActivity.class
+* out\production\SimpleLayout\com\example\SimpleLayout\MyLinLayout.class
+* out\production\SimpleLayout\com\example\SimpleLayout\R$attr.class
+* out\production\SimpleLayout\com\example\SimpleLayout\R$drawable.class
+* out\production\SimpleLayout\com\example\SimpleLayout\R$layout.class
+* out\production\SimpleLayout\com\example\SimpleLayout\R$string.class
+* out\production\SimpleLayout\com\example\SimpleLayout\R.class
 * proguard-project.txt
 
 Moved Files:
@@ -76,10 +43,10 @@ Moved Files:
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => Chapter8\xfermodeDemo\src\main\AndroidManifest.xml
-* assets\ => Chapter8\xfermodeDemo\src\main\assets
-* res\ => Chapter8\xfermodeDemo\src\main\res\
-* src\ => Chapter8\xfermodeDemo\src\main\java\
+* AndroidManifest.xml => ChapterX2\SimpleLayoutAdvance\src\main\AndroidManifest.xml
+* assets\ => ChapterX2\SimpleLayoutAdvance\src\main\assets
+* res\ => ChapterX2\SimpleLayoutAdvance\src\main\res\
+* src\ => ChapterX2\SimpleLayoutAdvance\src\main\java\
 
 Next Steps:
 -----------

@@ -42,6 +42,21 @@
             <option value="$PROJECT_DIR$/Chapter7/shadowLayerDemo" />
             <option value="$PROJECT_DIR$/Chapter8" />
             <option value="$PROJECT_DIR$/Chapter8/xfermodeDemo" />
+            <option value="$PROJECT_DIR$/Chapter9" />
+            <option value="$PROJECT_DIR$/Chapter9/canvasDemo" />
+            <option value="$PROJECT_DIR$/ChapterX" />
+            <option value="$PROJECT_DIR$/ChapterX/_10_1_ShapeDrawable" />
+            <option value="$PROJECT_DIR$/ChapterX/_10_2_BitmapDemo" />
+            <option value="$PROJECT_DIR$/ChapterX/_10_3_SurfaceViewDemo" />
+            <option value="$PROJECT_DIR$/ChapterX1" />
+            <option value="$PROJECT_DIR$/ChapterX1/blogColorMatrix" />
+            <option value="$PROJECT_DIR$/ChapterX1/blogProgressMetrics" />
+            <option value="$PROJECT_DIR$/ChapterX2" />
+            <option value="$PROJECT_DIR$/ChapterX2/SimpleLayoutAdvance" />
+            <option value="$PROJECT_DIR$/ChapterX2/flowLayoutSimple" />
+            <option value="$PROJECT_DIR$/ChapterX2/simpleLayout" />
+            <option value="$PROJECT_DIR$/ChapterX3" />
+            <option value="$PROJECT_DIR$/ChapterX3/MoveWindow" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

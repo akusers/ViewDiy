@@ -1,0 +1,77 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:3:11-45
+		INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml
+		INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:5:11-36
+		INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml
+		INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:4:11-34
+		INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml
+		INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml
+application
+ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:7:5-26:19
+	android:label
+		ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:8:13-45
+	android:icon
+		ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:9:13-49
+	android:theme
+		ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:10:13-55
+activity#com.harvic.ValueAnimator.MyActivity
+ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:12:9-20:20
+	android:label
+		ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:14:17-49
+	android:name
+		ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:13:17-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:16:13-19:29
+action#android.intent.action.MAIN
+ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:17:17-68
+	android:name
+		ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:18:17-76
+	android:name
+		ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:18:27-74
+activity#com.harvic.ValueAnimator.TranslateAnimationActivity
+ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:21:9-63
+	android:name
+		ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:21:19-61
+activity#com.harvic.ValueAnimator.ValueAnimDemoActivity
+ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:22:9-58
+	android:name
+		ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:22:19-56
+activity#com.harvic.ValueAnimator.RepeatActivity
+ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:23:9-51
+	android:name
+		ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:23:19-49
+activity#com.harvic.ValueAnimator.LoadingDemoActivity
+ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:24:9-56
+	android:name
+		ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml:24:19-54
+uses-sdk
+INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml
+INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml
+INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml
+INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml
+		ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml
+		INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml
+		ADDED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml
+		INJECTED from D:\AbWork\android\ViewDiy\Chapter3\valueAnimator\src\main\AndroidManifest.xml
